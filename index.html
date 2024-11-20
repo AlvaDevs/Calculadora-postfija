@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Expresiones Aritméticas</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Calculadora de Expresiones Aritméticas</h2>
+        <p>Convierte expresiones infijas a postfijas y obtén el resultado.</p>
+        
+        <input type="text" id="expresion" placeholder="Introduce una expresión en notación infija" />
+        <button id="calcular">Calcular</button>
+        <button id="borrar">Borrar</button>
+        
+        <div id="resultado" class="resultados"></div>
+        <div id="error" class="error"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

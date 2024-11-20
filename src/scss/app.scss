@@ -1,0 +1,80 @@
+@use 'base/normalize';
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+    background: url(https://wallpapers-clan.com/wp-content/uploads/2024/03/starfall-night-sky-mountains-aesthetic-gif-preview-desktop-wallpaper.gif) no-repeat center center fixed; /* GIF como fondo */
+    background-size: cover; /* Hace que el GIF cubra toda la pantalla */
+}
+
+/* Contenedor principal */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Títulos y textos */
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Input y botones */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Sección de resultados */
+.resultados {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}

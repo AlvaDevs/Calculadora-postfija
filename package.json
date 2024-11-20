@@ -1,0 +1,19 @@
+{
+  "name": "calculadora-de-expresiones-aritmeticas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp css"
+  },
+  "author": "Álvaro Álvarez",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.81.0"
+  }
+}
